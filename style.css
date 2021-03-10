@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body {
+  background-image: url("https://images.unsplash.com/photo-1615196534055-7aa534f6836b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  margin-top: 20px;
+  text-align: center;
+  color: chocolate;
+  font-family: "Redressed", cursive;
+}
+.form-container {
+  width: 40%;
+  margin: 30px auto;
+}
+form {
+  padding: 25px;
+  background-color: rgba(144, 203, 238, 0.514);
+  border-radius: 25px;
+  outline: none;
+}
+.inputs {
+  display: flex;
+  margin-bottom: 15px;
+}
+.inputs :last-child {
+  margin-bottom: 0;
+}
+.inputs > i {
+  min-width: 40px;
+  padding: 15px;
+  background-color: grey;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  color: white;
+  cursor: pointer;
+}
+.inputs:hover > i {
+  background-color: slateblue;
+  color: cyan;
+}
+.inputs > input[type="text"] {
+  outline: none;
+  border: 1px solid lightsalmon;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+}
+.inputs > input[type="submit"] {
+  padding: 8px;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+  width: 40%;
+  margin: 0 auto;
+  transition: all 1s linear;
+}
+.inputs:hover > input[type="submit"] {
+  background-color: coral;
+  color: white;
+  border-radius: 20px;
+}
+input[type="text"]:focus::placeholder {
+  color: rgb(161, 12, 12);
+}
+input[type="text"]:focus {
+  border: 1px solid green;
+}
