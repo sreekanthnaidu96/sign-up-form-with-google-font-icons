@@ -25,6 +25,7 @@ form {
   background-color: rgba(144, 203, 238, 0.514);
   border-radius: 25px;
   outline: none;
+  box-shadow: 0 18px 26px rgba(0, 0, 0, 0.3), 0 12px 28px rgba(0, 0, 0, 0.22);
 }
 .inputs {
   display: flex;
